@@ -326,7 +326,7 @@ public class Game extends JPanel implements ActionListener, Runnable
 		//The paint component g is sent to the paint component of heiarchy  
 		super.paintComponent(g);
 		
-		g.drawImage(new ImageIcon("background.png").getImage(), 0, 0,780,520,this );
+		g.drawImage(new ImageIcon("garden.png").getImage(), 0, 0,780,520,this );
 		
 		for(Player p: players)
 		{

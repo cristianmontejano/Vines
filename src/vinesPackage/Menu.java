@@ -38,7 +38,7 @@ public class Menu extends JFrame
 		setTitle("Vines Menu");
 		setVisible(true);
 		
-		setResizable(false);
+		setResizable(true);
 	}
 	
 	//Returns Panel

@@ -146,18 +146,18 @@ public class Interface implements ActionListener
 				(roundNums < 1 || roundNums > 10))
 			{
 				JOptionPane.showMessageDialog(m,"Please choose the amount of "+
-					"players and rounds you want?");
+					"players and rounds you want");
 			}
 			
 			else if(players < 1 || players > 4)
 			{
 				JOptionPane.showMessageDialog(m,"Please choose the amount of "+
-					"players you want?");	
+					"players you want");	
 			}
 			else if(roundNums < 1 || roundNums > 10)
 			{
 				JOptionPane.showMessageDialog(m,"Please choose the amount of "+
-					"rounds you want?");
+					"rounds you want");
 			}
 		}
 		
