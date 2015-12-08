@@ -19,6 +19,8 @@ public class Interface implements ActionListener
 	int players;
 	int roundNums;
 	
+	//JButton p_num, r_num, st_but, cl_but;//
+	
 	//Constructor
 	public Interface() throws IOException
 	{
@@ -61,6 +63,40 @@ public class Interface implements ActionListener
 	private void setUpMenu() throws IOException 
 	{
 		m = new Menu();
+		
+		/* Button Menu
+		JPanel button_pan = new JPanel();
+		button_pan.setLayout(new BoxLayout(button_pan, BoxLayout.Y_AXIS));
+		p_num = new JButton("Player #?");
+		r_num = new JButton("Rounds #?");
+		st_but = new JButton("Start");
+		cl_but = new JButton("Close");
+		
+		button_pan.add(Box.createVerticalStrut(100));
+
+		button_pan.add(p_num);
+		p_num.setAlignmentX(Component.CENTER_ALIGNMENT); 
+		button_pan.add(Box.createVerticalStrut(20));
+		button_pan.add(r_num);
+		r_num.setAlignmentX(Component.CENTER_ALIGNMENT);
+		button_pan.add(Box.createVerticalStrut(20));
+		button_pan.add(st_but);
+		st_but.setAlignmentX(Component.CENTER_ALIGNMENT);
+		button_pan.add(Box.createVerticalStrut(20));
+		button_pan.add(cl_but);
+		cl_but.setAlignmentX(Component.CENTER_ALIGNMENT); 
+		
+		m.add(button_pan);
+		p_num.setActionCommand("Player #?");
+		p_num.addActionListener(this);
+		r_num.setActionCommand("Rounds#?");
+		r_num.addActionListener(this);
+		st_but.setActionCommand("Start");
+		st_but.addActionListener(this);
+		cl_but.setActionCommand("Close");
+		cl_but.addActionListener(this);
+		*/
+		
 		JMenuBar b = new JMenuBar();
 		JMenu file = new JMenu("Options");
 		b.add(file,JMenu.CENTER);
